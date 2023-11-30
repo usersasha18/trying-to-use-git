@@ -1,0 +1,30 @@
+.footer .container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+.footer {
+    padding-bottom: 5rem;
+}
+
+.footer-title {
+    padding-bottom: 1rem;
+}
+
+.footer .container > p {
+    width: 700px ;
+    text-align: center;
+}
+
+
+.footer-button {
+    cursor: pointer;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    background-color: rgb(80, 50, 80);
+    padding: 15px 50px;
+    border: none;
+}

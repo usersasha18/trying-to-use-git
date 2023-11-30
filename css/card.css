@@ -1,0 +1,48 @@
+.card-section {
+    padding: 15rem 0;
+}
+
+
+.main-title {
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 5rem;
+}
+
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.card-item > p {
+    color: rgb(71, 71, 120);
+}
+
+.card-item {
+    transition: all .3s linear;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+.card-item:hover {
+    transform: scale(1.1);
+}
+
+.card-item-title {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.card-item-text {
+    padding: 1.5rem 0;
+}
+
+.card-item-button {
+    padding: 3px 10px;
+    border-radius: 7px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(60, 60, 106);
+}

@@ -1,0 +1,65 @@
+.header-bot-title {
+    font-size: 3.5rem;
+    width: 600px;
+}
+
+.header-bot-screen .container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.header-bot-img {
+    transition: all .4s linear;
+    max-width: 500px;
+    height: auto;
+}
+
+.header-bot-description {
+    width: 500px;
+    padding-bottom: 2rem;
+}
+
+.animate-border {
+    width:80px;
+    height: 80px;
+    position: relative;
+    cursor: pointer;
+  }
+
+  
+  
+  .animate-border::before {
+    content: "";
+    position: absolute;
+    top: -2px; /* Сдвигаем на 2 пикселя вверх, чтобы скрыть границу внутри элемента */
+    left: -2px; /* Сдвигаем на 2 пикселя влево */
+    right: -2px; /* Сдвигаем на 2 пикселя вправо */
+    bottom: -2px; /* Сдвигаем на 2 пикселя вниз */
+    border: 2px dashed #ffffff; /* Здесь 2px - ширина линии, dashed - стиль пунктира, #000 - цвет */
+    border-radius: 50%; /* Для создания круглой формы границы */
+    animation: rotateBorder 9s linear infinite;
+  }
+  
+  .inner-text {
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 1.7rem;
+    left: 0.8rem;
+  }
+  @keyframes rotateBorder {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+
+.site-name {
+    text-decoration: underline;
+}
+
