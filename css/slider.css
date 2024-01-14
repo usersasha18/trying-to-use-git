@@ -13,7 +13,7 @@
     transition: all .3s linear;
   }
   .grid-item > p {
-    color: hsl(0, 0%, 0%);
+    color: hsl(0, 0%, 100%);
     line-height: 30px;
   }
   .grid-item > h3 {
@@ -25,22 +25,29 @@
     display: inline-block; /* Отображение слайдов в строку */
     width: calc(100% / 1); /* Ширина каждого слайда */
     height: auto; /* Высота слайдов (замените на свои значения) */ /* Расстояние между слайдами */ /* Выравнивание текста по вертикали (замените на свои значения) */
-    background-color: #f0f0f0; /* Цвет фона слайдов (замените на свои значения) */
-    color: #000000; /* Цвет текста на слайдах (замените на свои значения) */
+    background-color: #000000; /* Цвет фона слайдов (замените на свои значения) */
+    color: #ffffff; /* Цвет текста на слайдах (замените на свои значения) */
   }
 
 
   .slider-button {
+    color: white;
     cursor: pointer;
     text-align: center;
     position: absolute;
     top: 45%;
-    background-color: rgb(66, 77, 86);
+    background-color: black;
+    box-shadow: 1px 1px 17px rgb(78, 78, 78);
     width: 50px;
     height: 50px;
     border-radius: 50%;
     line-height: 45px;
     z-index: 9999;
+    transition: all .3s linear;
+  }
+
+  .slider-button:hover {
+    box-shadow: 1px 1px 30px rgb(78, 78, 78);
   }
 
   .button-prev {

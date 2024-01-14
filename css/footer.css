@@ -21,10 +21,10 @@
 
 .footer-button {
     cursor: pointer;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 1.5rem;
     border-radius: 10px;
-    background-color: rgb(80, 50, 80);
+    background-color: rgb(255, 255, 255);
     padding: 15px 50px;
     border: none;
 }

@@ -17,14 +17,15 @@
 }
 
 .card-item > p {
-    color: rgb(71, 71, 120);
+    color: rgb(202, 202, 202);
 }
 
 .card-item {
     transition: all .3s linear;
     padding: 15px;
     border-radius: 10px;
-    background-color: aliceblue;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(20, 20, 20);
 }
 
 .card-item:hover {

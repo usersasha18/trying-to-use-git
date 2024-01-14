@@ -1,0 +1,123 @@
+body {
+    overflow-y: hidden;
+    color: white;
+}
+
+.inner-container {
+    margin-top: 90px;
+}
+
+.inner-title {
+    margin-bottom: 2rem;
+}
+
+.form-block , .form-button {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.form-button {
+    margin-top: 2rem;
+    padding: 15px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    font-size: 17px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+label {
+    font-weight: 600;
+}
+
+input {
+    padding: 10px;
+    margin-bottom:1rem;
+}
+
+
+textarea {
+    height: 200px;
+    resize: none;
+}
+
+input , textarea {
+    background-color: rgb(54, 51, 51);
+    border: 1px solid white;
+    border-radius: 7px;
+}
+
+input::placeholder, textarea::placeholder {
+    color: white;
+}
+
+.form-button:hover {
+    background-color: white;
+    color: black;
+}
+
+
+.sides {
+    display: flex;
+    align-items: start  ;
+    gap: 12rem;
+}
+
+
+.text-section img {
+    margin-top: 7rem;
+    animation: move 8s infinite;
+}
+
+.text-section p {
+    font-size: 20px;
+}
+
+
+.text-section h3 {
+    font-size: 30px;
+    width: 600px;
+    margin-bottom: 0.5rem;
+}
+
+.left-button {
+    position: absolute;
+    top: 0px;
+    left: -200px;
+    transform: rotate(90deg);
+    transition: all .3s ease-in-out;
+}
+
+.left-button > a {
+    font-weight: 700;
+    font-size: 100px;
+    color: #171717;
+    transition: all .3s ease-in-out;
+}
+
+.left-button:hover{
+    top: 220px;
+}
+
+
+.left-button > a:hover{
+    color: #5b5b5b;
+}
+
+
+@keyframes move {
+    0% {
+        transform: rotate(-10deg);
+    }
+    50% {
+        transform: rotate(10deg);
+    }
+    100% {
+        transform: rotate(-10deg);  
+    }
+    
+}

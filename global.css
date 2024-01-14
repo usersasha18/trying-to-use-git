@@ -6,10 +6,7 @@
 
 body {
     /* Градиент */
-    background: linear-gradient(to bottom, #4e54c8, #8f94fb); /* Здесь можно выбрать цвета градиента */
-    /* Для кроссбраузерной поддержки градиента */
-    background: -webkit-linear-gradient(top, #4e54c8, #8f94fb);
-    background-attachment: fixed;
+    background: black; /* Здесь можно выбрать цвета градиента */
     /* Чтобы градиент занимал всю высоту страницы */
     height: 100vh;
     margin: 0; 

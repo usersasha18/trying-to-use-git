@@ -1,0 +1,84 @@
+body {
+    overflow-y: hidden;
+}
+
+.inner-container {
+    margin-top: 115px;
+
+}
+.container {
+    position: relative;
+
+}
+
+.project-text {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 115%; /* 33.9px */
+    letter-spacing: 2.7px;
+}
+
+.first-text {
+    margin-bottom: 2rem;
+}
+
+.second-text {
+    margin-bottom: 2rem;
+}
+
+h1 {
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 80px;
+}
+
+
+.buttom-main {
+    position: absolute;
+    bottom: -290px;
+    transition: all .3s ease-in-out;
+}
+
+.buttom-main > a {
+    color: white;
+    font-weight: 700;
+    font-size: 128px;
+    color: #171717;
+    transition: all .3s ease-in-out;
+}
+
+.left-button {
+    position: absolute;
+    top: -140px;
+    left: -400px;
+    transform: rotate(90deg);
+    transition: all .3s ease-in-out;
+}
+
+.left-button > a {
+    font-weight: 700;
+    font-size: 100px;
+    color: #171717;
+    transition: all .3s ease-in-out;
+}
+
+.left-button:hover{
+    top: 120px;
+}
+
+
+.left-button > a:hover{
+    color: #5b5b5b;
+}
+
+.buttom-main:hover {
+    bottom: -250px;
+}
+
+.buttom-main > a:hover {
+    color: #5b5b5b;
+}
